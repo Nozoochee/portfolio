@@ -67,7 +67,7 @@ function Twitch() {
       </a>
     </div>
 
-    <div className="m-2 grid gap-4 lg:grid-cols-5 md:grid-cols-3 grid-cols-1">
+    <div className="m-2 grid gap-4 xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 grid-cols-1">
       {streams.map((stream, index) => {
         return <TwitchCard streamer={stream} key={index} />
       })}
