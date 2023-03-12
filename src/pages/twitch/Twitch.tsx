@@ -28,7 +28,7 @@ function Twitch() {
     params.append('pag', pagination);
     params.append('amnt', '20');
     
-    const res = await fetch(`http://api.nozoochee.com/twitch?${params}`);
+    const res = await fetch(`https://api.nozoochee.com/twitch?${params}`);
     if(!res.ok){
       alert("Something went wrong");
       console.log(res);
