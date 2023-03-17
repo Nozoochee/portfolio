@@ -18,7 +18,7 @@ function Projects({}: Props) {
     <>
     <SiteTitle title="Webdev"/>
     <section className='pb-10'>
-      <a href="http://github.com/Nozoochee" target="_blank" rel="noopener noreferrer" className="flex gap-4 items-center text-xl">
+      <a href="https://github.com/Nozoochee?tab=repositories" target="_blank" rel="noopener noreferrer" className="flex gap-4 items-center text-xl">
         <BsGithub size={40}/> Take a look at my GitHub page </a>
     </section>
 
